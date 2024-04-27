@@ -2,5 +2,8 @@
   "compilerOptions": {
       "jsx": "react"
   },
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "include": ["modules_types\\wallpaper.d.ts"],
+  "compileOnSave": true
+  // "exclude": []
 }
